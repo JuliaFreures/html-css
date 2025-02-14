@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(208, 219, 238);
+
+        }
+        
+        header{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        h1{ 
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(171, 163, 163);
+            padding: 3px;
+           box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.768);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+    text-decoration: underline;
+        }
+        main{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.655) ;
+        }
+        article{
+            background-color: lightgrey;
+
+        }
+        article > aside{
+            background-color: rgb(160, 158, 158);
+        }
+        h2{
+            text-align: center;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 1px;
+            border-radius: 20px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+<h1>Meu site</h1>
+<nav>
+    <a href="#">menu</a>
+    <a href="#">login</a>
+    <a href="#">sobre</a>
+    <a href="#">nós</a>
+</nav>
+
+</header>
+<main>
+<section id="assuntos"><p>esportes politica artes</p></section>
+<section id="noticias"></section>
+ <article>
+    <h2>noticias do Brasil</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis perspiciatis reiciendis aperiam impedit molestias soluta maiores fugiat nisi dignissimos, unde explicabo accusantium! Praesentium quibusdam at perspiciatis incidunt, earum excepturi ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia accusamus blanditiis numquam distinctio beatae reiciendis dicta incidunt? Repellat, debitis. Amet mollitia cumque suscipit assumenda minima cum voluptates aut ex dolorem.</p>
+    <aside><p>Artigo de José</p></aside>
+ </article>
+
+</main>
+<footer>
+<p>Desenvolvido por mim</p>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body{
+    background-color: rgba(198, 177, 219, 0.853);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    color: rgb(4, 4, 171);
+}
+h1#principal{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+h2{
+    color: rgb(64, 64, 137);
+}
+.basico{
+    color: rgb(85, 46, 122);
+}
+p{
+    text-align: justify;
+   text-indent: 30px;
+}
